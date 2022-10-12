@@ -4,7 +4,7 @@ Config.UnZipItems = { -- Items That Can Be Used to Remove Zipties (Can Be Nothin
     'weapon_knife',
 }
 
-Config.BagFallOffWait = 180000 -- Time Before The Head Bag Automatically Falls Off (In Minutes)
+Config.BagFallOffWait = 3 -- Time Before The Head Bag Automatically Falls Off (In Minutes)
 
 Config.ZiptieWiggleAmount = 100 -- Number of Times The Victim Must Press "Point" Before Breaking Free From Zipties
 
