@@ -1,3 +1,4 @@
+<!--
     _____                        _____           _       _       
    / ____|                      / ____|         (_)     | |      
   | |     _ __ __ _ _____   _  | (___   ___ _ __ _ _ __ | |_ ___ 
@@ -6,9 +7,10 @@
    \_____|_|  \__,_/___|\__, | |_____/ \___|_|  |_| .__/ \__|___/
                          __/ |                    | |            
                         |___/                     |_|            
-
+ -->
 
 # Thanks For Downloading :D
+- For QBCore
 
 # Important Notes!
 - When a Victim is Ziptied they can spam "Point" (Default: B) to release themselves
