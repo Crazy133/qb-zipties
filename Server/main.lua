@@ -3,7 +3,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 
 
---==USEUABLE ITEMS==-- All Clear
+--==USEUABLE ITEMS==--
 
 QBCore.Functions.CreateUseableItem('headbag', function(source)
     local src = source
@@ -24,14 +24,8 @@ QBCore.Functions.CreateUseableItem('ziptie', function(source)
 end)
 --==END OF USEABLE ITEMS==--
 
-QBCore.Commands.Add('crazywebhook', 'Debug Tool', {}, false, function(source, args)
-    local src = source
-    local Player = QBCore.Functions.GetPlayer(src)
-    TriggerEvent("qb-log:server:CreateLog", "anticheat", "Crazy-Kidnapping: Distance > 2.5", "orange", string.format("User: ** %s **\nIdentifier: ** %s **\nCitizenId: ** %s **\nServer Id: ** %s **", GetPlayerName(src), GetPlayerIdentifier(src, fivem), Player.PlayerData.citizenid, src))
-end)
 
-
---==ZIPTIE==-- All Clear
+--==ZIPTIE==--
 
 RegisterNetEvent('Crazy:Server:ZiptiePlayer', function(playerId)
     local src = source
