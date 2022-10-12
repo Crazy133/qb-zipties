@@ -95,7 +95,7 @@ RegisterNetEvent('Crazy:Client:GetBagOnHead', function(TargetId) -- Other Player
         event = 'Crazy:Client:TakeBagOff',
         shouldClose = true
     })
-    SetTimeout(Config.BagFallOffWait, BagWiggle)
+    SetTimeout((Config.BagFallOffWait * 60000), BagWiggle)
 end)
 
 RegisterNetEvent('Crazy:Client:BagOff', function()
