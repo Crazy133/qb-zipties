@@ -124,7 +124,7 @@ RegisterNetEvent('Crazy:Client:TakeBagOff', function() -- Self
 end)
 
 RegisterNetEvent('Crazy:Client:BagWiggle', function() -- Self
-    QBCore.Functions.Notify(Lang:t('released.wiggledbag'), 'success', 3000)
+    QBCore.Functions.Notify(Lang:t('released.wigglebag'), 'success', 3000)
     DoScreenFadeIn(0)
     SetPedComponentVariation(PlayerPedId(), 1, OGOutfit.draw, OGOutfit.tex, 0)
 end)
