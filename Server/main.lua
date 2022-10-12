@@ -1,8 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 
-
-
 --==USEUABLE ITEMS==--
 
 QBCore.Functions.CreateUseableItem('headbag', function(source)
