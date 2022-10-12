@@ -45,7 +45,7 @@
 
 ```
 
-# 2. Replace Event In (qb-policejob > client >  interactions.lua : ~ line 303) With This Block Below -->
+# 2. Replace Event In (qb-policejob > client >  interactions.lua : ~ line 303) With This Block Below
 ```
 
 RegisterNetEvent('police:client:GetEscorted', function(playerId)
