@@ -74,7 +74,7 @@ end)
 
 
 
-<!-- Thanks! -->
+# Thanks!
 - To Any and All Who Helped In The Making of This
 
 
