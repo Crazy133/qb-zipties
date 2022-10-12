@@ -8,7 +8,7 @@ local OGOutfit = {}
 
 --==FUNCTIONS==--
 
-local function loadAnimDict(dict) -- interactions, job,
+local function loadAnimDict(dict)
     while (not HasAnimDictLoaded(dict)) do
         RequestAnimDict(dict)
         Wait(10)
@@ -232,7 +232,7 @@ end)
 
 
 
---==THREAD / DEBUG==--
+--==THREAD==--
 local ReleaseSpam = 0
 CreateThread(function()
     while true do
@@ -292,11 +292,4 @@ CreateThread(function()
             Wait(2000)
         end
     end
-end)
-
--- DEBUG COMMAND
-RegisterCommand('crzdebug', function()
-    DoScreenFadeIn(0)
-    TriggerEvent('Crazy:Client:GetUnZiptied')
-    TriggerEvent('Crazy:Client:')
 end)
