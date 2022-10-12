@@ -9,7 +9,7 @@
                         |___/                     |_|            
  -->
 
-# Thanks For Downloading :D
+# Enjoy
 - For QBCore
 
 # Important Notes!
@@ -37,8 +37,7 @@
 
 # Setup / Installation:
 
-# 1. Add These Items To qb-core > shared > items.lua
-##  You Can Press (Alt + Z) To Make This Easier To Read and Format.
+### 1. Add These Items To qb-core > shared > items.lua
 ```
 
 -- Crazy Zipties & HeadBags
@@ -47,7 +46,7 @@
 
 ```
 
-# 2. Replace Event In (qb-policejob > client >  interactions.lua : ~ line 303) With This Updated Event
+### 2. Replace Event In (qb-policejob > client >  interactions.lua : ~ line 303) With This Updated Event
 ```
 
 RegisterNetEvent('police:client:GetEscorted', function(playerId)
@@ -70,17 +69,17 @@ end)
 
 ```
 
-# 3. Add Images to (qb-inventory > html > images) from the images folder here
+### 3. Add Images to (qb-inventory > html > images) from the images folder here
 
-# 4. 'refresh' (In-Game or Through Tx) then 'ensure crazy-kidnapping' (In-Game or Through Tx)
+### 4. 'refresh' (In-Game or Through Tx) then 'ensure crazy-kidnapping' (In-Game or Through Tx)
 
 
 
-# Thanks!
+## Thanks!
 - To Any and All Who Helped In The Making of This
 
 
-# License
+## License
 QBCore Framework
 Copyright (C) 2015-2022 ESX (Jérémie N'gadi), Joshua Eger
 
