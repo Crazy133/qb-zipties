@@ -283,7 +283,6 @@ CreateThread(function()
             
             if IsControlJustPressed(0, 29) then
                 ReleaseSpam += 1
-                print(ReleaseSpam)
                 if ReleaseSpam == Config.ZiptieWiggleAmount then
                     TriggerEvent('Crazy:Client:ZiptieWiggle')
                 end
