@@ -29,6 +29,7 @@
 - Anti-Cheat Logs
 - Exploit Protected
 - Face Covering Mask
+- Radial Menu Add-Ons
 - Items
 
 ## Screenshots
