@@ -31,12 +31,12 @@ RegisterNetEvent('Crazy:Server:ZiptiePlayer', function(playerId)
     local targetPed = GetPlayerPed(playerId)
     local playerCoords = GetEntityCoords(playerPed)
     local targetCoords = GetEntityCoords(targetPed)
-    
-    if #(playerCoords - targetCoords) > 2.5 then return TriggerEvent("qb-log:server:CreateLog", "anticheat", "Crazy-Kidnapping: Distance > 2.5", "orange", string.format("User: ** %s **\nIdentifier: ** %s **\nCitizenId: ** %s **\nServer Id: ** %s **", GetPlayerName(src), GetPlayerIdentifier(src, fivem), Player.PlayerData.citizenid, src)) end
     local Player = QBCore.Functions.GetPlayer(src)
     local ZiptiedPlayer = QBCore.Functions.GetPlayer(playerId)
-    
     local HasZiptie = QBCore.Functions.HasItem(src, 'ziptie')
+        
+    if #(playerCoords - targetCoords) > 2.5 then return TriggerEvent("qb-log:server:CreateLog", "anticheat", "Crazy-Kidnapping: Distance > 2.5", "orange", string.format("User: ** %s **\nIdentifier: ** %s **\nCitizenId: ** %s **\nServer Id: ** %s **", GetPlayerName(src), GetPlayerIdentifier(src, fivem), Player.PlayerData.citizenid, src)) end
+    
     if HasZiptie then
         if Player.Functions.RemoveItem('ziptie', 1) then
             TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items['ziptie'], 'remove')
