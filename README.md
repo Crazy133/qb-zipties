@@ -13,6 +13,8 @@
 - For QBCore
 
 # Important Notes!
+- Victim Must Have Their Hands Up To Use The Zip Tie
+- Victim Must Have Be Zip Tied To Use The Blind Fold (headbag)
 - When a Victim is Ziptied they can spam "Point" (Default: B) to release themselves
 - When a Victim is Bagged they can wait until the Bag automatically falls off
 - Kidnappers also have the option to remove both before the Victim does
